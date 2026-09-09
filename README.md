@@ -1,2 +1,2 @@
 # mfua
-this repository is for me frfr
+wsl training grounds loll
