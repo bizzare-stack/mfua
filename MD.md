@@ -71,3 +71,32 @@
 Изображения
 ![Тут какая-то картинка](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF6eNe5cV93kEgda9ZFDrX66fuSQIlzjdPfZSKsh6PQy8uT0fmkDrTBxCX&s=10)
 
+Код
+
+`Ctrl+R` - обновить страницу браузера
+`F5` - обновить страницу браузера
+
+```python
+print("hello")
+```
+```cpp
+int main(){
+  pust("hello");
+}
+```
+```mermaid
+pie
+  title BROWSER
+  "chromium": 40
+  "opera": 15
+  "firefox": 10
+```
+цитаты
+> чем гуще лес скибиди ес ес
+
+Таблицы
+| headline1 | headline2 | healdine3|
+|-----------|-----------|----------|
+| textbox1  |textbox2   |textbox3  |
+| textbox4  |textbox5   |textbox6  |
+|           |           |          |
