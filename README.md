@@ -6,4 +6,4 @@
 - [Task Mermaid](/task_mermaid.md)
 - [Task Game](/project_zomboid.md)
 - [BashCli](/bash_cli.md)
-- [Bash Read Me](bash\ReadME.MD)
+- [Bash Read Me](bash/ReadME.MD)
