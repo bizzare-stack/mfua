@@ -8,3 +8,4 @@
 - [BashCli](/bash_cli.md)
 - [Bash Read Me](bash/ReadME.MD)
 - [Основы Git](/Git.MD)
+- [Статитечский сайт на github pages]
