@@ -8,5 +8,5 @@
 - [BashCli](/bash_cli.md)
 - [Bash Read Me](bash/ReadME.MD)
 - [Основы Git](/Git.MD)
-- [Статитечский сайт на github pages](https://github.com/bizzare-stack/SITEPAGE)
+- [Статитечский сайт на github pages](https://bizzare-stack.github.io/SITEPAGE/)
 ---
