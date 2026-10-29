@@ -8,6 +8,7 @@
 - [BashCli](/bash_cli.md)
 - [Bash Read Me](bash/ReadME.MD)
 - [Основы Git](/Git.MD)
+-[Ссылка на репозиторий преподователя](https://github.com/rurewa/imfua)
 ---
 #### Проекты на github pages
 - [Статитечский сайт на github pages](https://bizzare-stack.github.io/SITEPAGE/)
