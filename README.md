@@ -8,9 +8,9 @@
 - [BashCli](/bash_cli.md)
 - [Bash Read Me](bash/ReadME.MD)
 - [Основы Git](/Git.MD)
--[Ссылка на репозиторий преподователя](https://github.com/rurewa/imfua)
+- [Ссылка на репозиторий преподователя](https://github.com/rurewa/imfua)
 ---
 #### Проекты на github pages
 - [Статитечский сайт на github pages](https://bizzare-stack.github.io/SITEPAGE/)
-- [Индивидуальный проект на guthub pages](https://bizzare-stack.github.io/ubileynoe-factory/)
+- [Индивидуальный проект на guthub pages](https://github.com/bizzare-stack/ubileynoe-factory)
 - [Групповой проект на github pages](https://github.com/demoh544/group_project_mibimbo)
