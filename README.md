@@ -7,6 +7,7 @@
 - [Task Game](/project_zomboid.md)
 - [BashCli](/bash_cli.md)
 - [Bash Read Me](bash/ReadME.MD)
+- [Bash как язык программирования](/Bash_script.md)
 - [Основы Git](/Git.MD)
 - [Ссылка на репозиторий преподователя](https://github.com/rurewa/imfua)
 ---
