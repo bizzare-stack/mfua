@@ -17,7 +17,7 @@
 docker version
 ```
 
-![Скрин версии Docker](docker\images\dockerversion.png)
+![Скрин версии Docker](images/dockerversion.png)
 > Готовые образы берутся из сторонних источников: **Docker Hub** или другие
 
 [Ссылка на Docker Hub](https://hub.docker.com/)
@@ -49,7 +49,7 @@ docker container prune $(docker ps -q)
 docker ps -a
 ```
 
-![Тут нужен скриншот вывода]()
+![Тут нужен скриншот вывода](images/imagescheck.png)
 
 - Опционально можно удалить ненужные образы. Показать текущие образы:
 ```shell
@@ -78,7 +78,7 @@ docker rmi $(docker images -q)
 docker search nginx
 ```
 
-![Скрин вывода поиска по слову nginx](img/docker_screen.png)
+![Скрин вывода поиска по слову nginx](images/dockersearch.png)
 
 Так же готовый образ можно искать в **Docker Desktop**
 
@@ -94,7 +94,7 @@ docker run -d --name my-nginx -p 80:80 nginx
 docker ps -a
 ```
 
-![Тут нужен скриншот]()
+![Тут нужен скриншот](images/niggxrun.png)
 
 Показать загруженный на ваш компьютер образ
 ```shell
@@ -108,11 +108,11 @@ docker images
 curl http://localhost/
 ```
 
-![Скрин вывода curl](img/curl_nginx.png)
+![Скрин вывода curl](images/showcurl.png)
 
 Способ 2 - [открыть http://localhost/ адрес в браузере](http://localhost/)
 
-![Скрин nginx в браузере](img/web_nginx.png)
+![Скрин nginx в браузере](images/curlwebsite.png)
 
 Опционально, если нужно только получить готовый образ, без создания и запуска контейнера, то
 ```shell
@@ -149,7 +149,7 @@ docker stop my-nginx
 docker rm my-nginx
 ```
 
-![Тут нужен скриншот вывода]()
+![Тут нужен скриншот вывода](images/dockerRM.png)
 
 Если нужно создать ещё один контейнер из этого образа, то:
 ```shell
@@ -172,7 +172,7 @@ docker images
 docker rmi id_образа
 ```
 
-![Скрин состояния docker images](img/rm_image.png)
+![Скрин состояния docker images](images/blyat.png)
 
 ### 4. Проверить работу контейнера
 
@@ -186,7 +186,7 @@ docker run -d --name my-nginx -p 80:80 nginx
 docker images
 ```
 
-![Скрин образа](img/2_images.png)
+![Скрин образа](images/dockerimaeghs.png)
 
 Показать только запущенные контейнеры
 ```shell
@@ -196,7 +196,7 @@ docker ps
 ```shell
 docker ps -a
 ```
-![Скрин контейнера](img/contaurer.png)
+![Скрин контейнера](images/dockercontioam.png)
 
 > Из одного образа можно получить несколько контейнеров!
 
@@ -219,7 +219,7 @@ docker inspect my-nginx
 docker stats
 ```
 
-![](img/2_stats.png)
+![](images/dockerstats.png)
 
 
 > Выйти из мониторинга контейнеров можно по `Ctrl+C`
@@ -235,7 +235,7 @@ docker logs -f my-nginx
 ```
 > Выйти из логов в режиме ожидания можно по `Ctrl+C`
 
-![](img/logs.png)
+![](images/nignslogs.png)
 
 #### Управление контейнером
 
@@ -276,13 +276,13 @@ docker exec -it my-nginx sh
 ```shell
 uname -a
 ```
-![](img/uname.png)
+![](images/linuxinfo.png)
 
 Получить больше информации об ОС контейнера
 ```shell
 cat /etc/os-release
 ```
-![](img/os_release.png)
+![](images/catoc.png)
 
 Установить **Fastfetch**
 ```shell
@@ -293,7 +293,7 @@ apt update && apt install -y fastfetch
 ```shell
 fastfetch
 ```
-![Вывод команды fastfetch](img/fastfetch.png)
+![Вывод команды fastfetch](images/fastfetch.png)
 
 Можно установить ещё несколько приложений внутри Docker-контейнера:
 ```shell
@@ -306,7 +306,7 @@ apt update && apt install -y fastfetch htop inxi cmatrix hollywood caca-utils mc
 htop
 ```
 
-![Скрин вывода htop]()
+![Скрин вывода htop](images/htop.png)
 
 > Выйти из `htop` можно по **Q**
 
@@ -314,14 +314,14 @@ htop
 cmatrix
 ```
 
-![Скрин вывода cmatrix]()
+![Скрин вывода cmatrix](images/cmatrix.png)
 
 > Выйти из `cmatrix` можно по **Q**
 
 ```shell
 hollywood
 ```
-![Скрин вывода hollywood]()bash
+![Скрин вывода hollywood](images/hollywood.png)
 
 > Выйти из `hollywood` можно по `Ctrl-C`
 
@@ -355,8 +355,7 @@ micro /usr/share/nginx/html/index.html
 
 [Проверить изменения на открытой странице >>](http://localhost/)
 
-![Скрин изменённой страницы в браузере](img/)
-
+![Скрин изменённой страницы в браузере](images/changes.png)
 Выйти из контейнера:
 ```shell
 exit
@@ -377,6 +376,3 @@ docker container prune $(docker ps -q)
 docker rmi $(docker images -q)
 ```
 
-> Если вы обнаружили ошибку в этом тексте - сообщите пожалуйста автору!
-
-[def]: docke
